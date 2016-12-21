@@ -1,0 +1,12 @@
+.pagination ul li a
+{
+	float: none !important;
+	padding: 0 !important;
+	margin-right: 9px !important;
+	border: none !important;
+}
+
+.pagination button.b-gray
+{
+	margin-right: 0px !important;
+}

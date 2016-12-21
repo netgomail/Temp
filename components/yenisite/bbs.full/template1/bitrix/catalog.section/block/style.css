@@ -1,0 +1,9 @@
+div.item img.urgent_icon {
+	position: absolute;
+	right: -83px;
+	top: -35px;
+	z-index: 1;
+}
+div.item:hover img.urgent_icon {
+	z-index: 10000;
+}

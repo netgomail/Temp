@@ -1,0 +1,152 @@
+@font-face{ 
+	font-family: 'WebSymbolsLiga';
+		src: url('../fonts/websymbolsligaregular.eot');
+		src: url('../fonts/websymbolsligaregular.eot?#iefix') format('embedded-opentype'),
+			url('../fonts/websymbolsligaregular.woff') format('woff'),
+			url('../fonts/websymbolsligaregular.ttf') format('truetype'),
+			url('../fonts/websymbolsligaregular.svg#WebSymbolsRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'PT Serif';
+    src: url('../fonts/pt_serif-web-italic-webfont.eot');
+    src: url('../fonts/pt_serif-web-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/pt_serif-web-italic-webfont.woff') format('woff'),
+         url('../fonts/pt_serif-web-italic-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.liga, .sym { font-family: WebSymbolsLiga; font-style: normal; }
+i.sym{ font-style: normal;}
+.nav-pills .sym{
+	margin-right: 14px;
+}
+
+.flag{
+	background:url('../img/flags.png') 0 0 no-repeat;
+	height:11px;
+	width:16px;
+	display:inline-block;
+	margin-right: 14px;
+}
+.ru{
+	background-position: 0 0;
+}
+.ua{
+	background-position:-110px 0;	
+}
+.bel{
+	background-position:-224px 0;	
+}
+.kz{
+	background-position:-363px 0;	
+}
+
+.clear { clear: both; }
+
+#ys-settings-head{
+position: fixed;
+top: 40%;
+left: 48px;
+width: 1px;
+height: 1px;
+margin-left: -50px;
+}
+
+#ad_add textarea{
+	width: 97.7%;
+}
+
+.blc_comments .container {
+	width: auto;
+}
+
+/* GeoIP */
+.ys-loc-autocomplete {
+	position: absolute;
+	left: 250px;
+	top: 70px;
+	display: none;
+	width: 467px;
+	max-height: 400px;
+	overflow: auto;
+	z-index: 1200;
+	background: white;
+	border: 1px solid #aaa;
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	box-shadow: 0 1px 2px #777;
+}
+
+.ys-loc-autocomplete div {
+	line-height: 14px;
+	padding: 3px 5px;
+	cursor: pointer;
+	font-size: 14px;
+}
+
+.ys-loc-autoc-selected {
+	background: #e0e0e0;
+}
+
+#select-regions1 .modal-body ul li {
+	margin-bottom: 10px;
+}
+
+#select-regions1 .modal-body ul li.active a{
+	pointer-events: none;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.modal.geolocation .modal-body ul li.active a{
+	text-decoration:none;
+	font-weight: bold;
+	pointer-events: none;
+}
+
+div#ads_top {
+	height: auto;
+}
+
+.blc_intro .row-fluid
+{
+	margin-top:-30px;
+}
+
+@media (max-width: 768px)
+{
+	.blc_intro .row-fluid
+	{
+		margin-top:0px;
+	}
+}
+
+form .promotions .promotion .sym{
+	background-position-x: 20px;
+}
+
+.no-moderation {
+	color: red;
+}
+
+.section-description{
+	padding: 30px 0px 30px 0px;
+}
+
+.b-request-header{
+	color: white !important;
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.row-fluid .blc_ditail .gallery .thumbs a:hover span,
+.row-fluid .blc_ditail .gallery .thumbs a.active span {
+	top: -26px;
+	left: 41%;
+}

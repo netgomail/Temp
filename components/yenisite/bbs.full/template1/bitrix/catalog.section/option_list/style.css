@@ -1,0 +1,8 @@
+a.b-action,
+a.b-action:hover {
+	color: #fff;
+	text-decoration: none;
+	border-radius: 3px;
+	display: inline-block;
+	margin-top: 10px;
+}

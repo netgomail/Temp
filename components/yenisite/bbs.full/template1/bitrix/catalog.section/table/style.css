@@ -1,0 +1,8 @@
+div.row-fluid {
+	position: relative;
+}
+div.announcement img.urgent_icon {
+	position: absolute;
+	top:3px;
+	right:0;
+}
