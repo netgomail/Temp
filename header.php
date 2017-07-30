@@ -7,7 +7,8 @@
     <?IncludeTemplateLangFile(__FILE__);?>
     <?$APPLICATION->ShowHead()?>
     <title><?$APPLICATION->ShowTitle()?></title>
-    	
+
+<!-- Commit -->
 <?if(!CModule::IncludeModule("yenisite.bbs") && !CModule::IncludeModule('yenisite.bbslite'))
 {
 	return false;
@@ -24,8 +25,8 @@ $showPanel = ($isDemo ? true : $USER->IsAdmin());
 		CYSBbs::SetColorSheme($_POST['color']);
 		unset($_POST['color']);
 	}
-?>		
- <?/*  
+?>
+ <?/*
    <link rel="stylesheet/less" type="text/css" href="./bootstrap/bootstrap.min.css">
 <!-- <link rel="stylesheet/less" type="text/css" href="bootstrap/less/responsive.less"> -->
 <link rel="stylesheet/less" type="text/css" href="bootstrap/bootstrap-responsive.css">
@@ -79,7 +80,7 @@ if(CModule::IncludeModule("advertising"))
 <!-- *************** Start of Header *************** -->
 	<header>
 		<a data-toggle="modal" href="<?=SITE_DIR?>" id="logo" class="ir">advertique</a>
-		<h2><?$APPLICATION->IncludeComponent("bitrix:main.include", "", 
+		<h2><?$APPLICATION->IncludeComponent("bitrix:main.include", "",
 		Array("AREA_FILE_SHOW" => "file",	"PATH" => SITE_DIR."include_areas/right_logo.php",	"EDIT_TEMPLATE" => "include_areas_template.php"	), false);?></h2>
 		<div class="wdt_user navbar">
 			<?global $USER;
@@ -106,5 +107,4 @@ if(CModule::IncludeModule("advertising"))
 		</div>
 	</header>
 <!-- *************** / End of Header *************** -->
-<div id="wrapper">	
-	
+<div id="wrapper">
